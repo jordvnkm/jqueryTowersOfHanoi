@@ -1,0 +1,65 @@
+
+body {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  padding: 100px;
+  text-align: center;
+}
+
+figure {
+
+  display: flex;
+  /*background: green;*/
+
+  margin: auto;
+  width: 100%;
+}
+
+ul {
+  margin: 10px;
+  width: 33%;
+  height: 200px;
+  /*background-color: pink;*/
+  border-bottom: 5px solid black;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  align-items: flex-start;
+  display: flex;
+  padding: 0px;
+  /*position: relative;*/
+}
+
+ul:hover {
+  border-color: blue;
+}
+
+li {
+  border-bottom: 9px solid yellow;
+  border-top: 9px solid yellow;
+
+  border-radius: 25px 25px;
+
+  height: 0px;
+  margin: 5px auto;
+}
+
+.disc1 {
+  width: 25%;
+}
+
+.disc2 {
+  width: 65%;
+}
+
+.disc3 {
+  width: 95%;
+}
+
+.firstSelection {
+  border-color: red;
+}
